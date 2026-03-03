@@ -3,6 +3,7 @@ name: patent-retriever-bigquery
 description: |
   基于 Google Patent BigQuery 的专利检索技能。用于按主题/关键词构建检索计划并拉取专利结果（默认不少于20条），输出结构化 JSON 供后续分析使用。
   触发词：专利检索、patent search、prior art、google patents、bigquery patent。
+homepage: https://github.com/yangyuwen-bri/patent-retriever-bigquery
 user-invocable: true
 emoji: 🔎
 tags:
@@ -12,6 +13,15 @@ tags:
   - bigquery
   - google-patents
   - openclaw
+metadata:
+  openclaw:
+    homepage: https://github.com/yangyuwen-bri/patent-retriever-bigquery
+    requires:
+      bins:
+        - python3
+      env:
+        - GOOGLE_APPLICATION_CREDENTIALS
+        - GOOGLE_CLOUD_PROJECT
 ---
 
 # Patent Retriever (BigQuery)

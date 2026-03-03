@@ -134,3 +134,9 @@ python3 scripts/schema_check.py --input results/retriever_result.json --schema s
   - BigQuery API enabled
   - service account permissions
   - billing/quota status
+
+## Security Notes
+
+- Use a dedicated service account with least privilege.
+- Prefer read-only BigQuery access scoped to Google Patents public dataset/table.
+- Do not commit credential JSON files or secrets into this repository.

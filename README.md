@@ -1,11 +1,13 @@
-# Patent Retriever (BigQuery)
+# ZeeLin Patent Retriever
 
-A focused OpenClaw skill for patent retrieval using **Google Patent BigQuery**.
+Team ZeeLin skill for Google Patents retrieval via BigQuery.
+Fetch, deduplicate, and structure patent evidence from Google Patents BigQuery for downstream analysis.
 
 This repository is designed for:
 - standalone GitHub hosting
 - ClawHub import from GitHub URL
 - structured retrieval output for downstream analysis/drafting
+- Team ZeeLin skill branding and maintenance
 
 ## GitHub Repository
 
